@@ -1,4 +1,4 @@
-# print positive numbers from range
+# Print positive numbers from range
 
 #taking list input from user
 list1 = []
