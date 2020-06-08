@@ -1,21 +1,42 @@
-# Print positive integers from list
+# print positive numbers from range
 
-list1 = [12, -7, 5, 64, -14]
-print list1
+#taking list input from user
+list1 = []
+n = input("Enter number of elements: ")
+
+for i in range (0, n):
+    ele = input()
+
+    list1.append(ele)
+    
+print "Input:", list1
+
+#List for positive numbers 
 positive_list1 = []
 
 for i in list1:
     if i > 0:
         positive_list1.append(i)
 
-print positive_list1
+print "Output:", positive_list1
 
-list2 = [12, 14, -95, 3]
-print list2
+#Taking user input for list
+list2 = []
+
+n = input("Enter number of elements: ")
+
+for j in range (0,n):
+    ele = input()
+
+    list2.append(ele)
+    
+print "Input:", list2
+
+#List for positive numbers 
 positive_list2 = []
 
 for j in list2:
     if j > 0:
         positive_list2.append(j)
 
-print positive_list2
+print "Output:", positive_list2
